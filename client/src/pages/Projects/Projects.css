@@ -1,0 +1,49 @@
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+.multiSelectContainer {
+  margin-top: 48px;
+  background-color: #f5f6f8;
+  border-radius: 0 24px 24px 24px;
+  border: none;
+  outline: none;
+}
+
+.multiSelectContainer li {
+  padding: 10px;
+  font-size: 16px;
+}
+.multiSelectContainer li:hover {
+  background-color: #d83a52 !important;
+}
+.highlightOption {
+  background-color: #d83a52 !important;
+}
+.chip {
+  background-color: #d83a52 !important;
+  margin-top: 4px;
+}
+.searchWrapper {
+  padding: 4px 16px !important;
+  border: none !important;
+}
+.multiSelectContainer input {
+  font-size: 20px;
+}
+.optionListContainer {
+  background-color: #f5f6f8;
+  border: none;
+  outline: none;
+  margin-bottom: 16px !important;
+}
+
+

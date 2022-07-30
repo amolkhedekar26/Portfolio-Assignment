@@ -1,0 +1,15 @@
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(195px, 20vw), 2fr));
+  margin: 48px 0 8px 0;
+  grid-gap: 30px;
+}
+.skill-level-label {
+  color: #d83a52;
+}
